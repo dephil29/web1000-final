@@ -1,0 +1,33 @@
+body {
+    background-image: url("purdy.jpeg");
+}
+
+.board {
+    margin-top: 50px;
+}
+
+.row {
+    text-align: center;
+}
+
+.dot {
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.full {
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: rgb(133, 9, 61);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.highlight {
+    box-shadow: 0 0 5px 7px rgb(241, 211, 11);
+}

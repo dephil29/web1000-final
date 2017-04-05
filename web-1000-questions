@@ -1,0 +1,51 @@
+1. What are the four steps of mergesort?
+	1. split in half
+	2. sort one half
+	3. sort the other half
+	4. merge and repeat...
+
+
+2. Using JavaScript, generate a random number between 50 and 100.
+
+	Math.random() * 50 + 50;
+
+3. Using Javascript, generate a random number between -100 and 100.
+
+	Math.random() * -200 + 100;
+
+4. Write a coin flip function. It should return the string "heads"
+   half the time and the string "tails" the other half
+
+	function coinFlip(){
+
+	    return (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails';
+
+	}
+
+	coinFlip();
+
+5. Re-state the following expression without using negation: !(10 > x)
+
+	 (10 <= x)
+
+6. Re-state the following expression without using negation: !(a > 10 && b <= 5)
+
+	 (a <= 10 && b > 5)
+
+7. Re-state the following expression without using negation: !(!isLegal || !isFelony)
+
+	 (isLegal || isFelony)
+
+8. What is an Angular directive?
+
+	 instruction to html compiler
+
+11. What is the relationship between html, the $scope construct, and angular expressions?
+(Expressions are the ones that are written like so: {{quote}} ).
+
+    the scope is an argument that contains the html that will be presented by the expression.
+
+14. For exercises 9 and 10, if you assume that n is the size of one side of the matrix,
+what is the time complexity (Big Oh) of the algorithms you wrote?
+
+      O(n);
